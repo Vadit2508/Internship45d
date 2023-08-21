@@ -2,13 +2,13 @@
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/custom_background"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".ProductDetailActivity">
 
     <LinearLayout
         android:orientation="vertical"
-        android:background="@drawable/custom_background"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -43,13 +43,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"/>
 
-    <Button
-        android:id="@+id/product_detail_buy_now"
-        android:text="Buy Now"
-        android:layout_marginTop="@dimen/_20sdp"
-        android:layout_marginHorizontal="@dimen/_20sdp"
-        style="@style/button_18"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/product_detail_buy_now"
+            style="@style/button_18"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:text="Buy Now" />
     </LinearLayout>
 </ScrollView>

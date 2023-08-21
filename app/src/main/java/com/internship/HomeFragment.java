@@ -18,22 +18,23 @@ public class HomeFragment extends Fragment {
 
     RecyclerView recyclerView;
 
-    String[] nameArray = {"Bread","Cloth","Makeup Kit","Bread","Cloth","Makeup Kit"};
-    int[] imageArray = {R.drawable.bread,R.drawable.cloth,R.drawable.makup_kit,R.drawable.bread,R.drawable.cloth,R.drawable.makup_kit};
+    String[] nameArray = {"Iphone 14","Apple Watch Ultra","Airpods pro","Macbook Pro","Studio Display",};
+    int[] imageArray = {R.drawable.iphone,R.drawable.applewatchultra,R.drawable.appleairpodspro,R.drawable.macbookpro,R.drawable.studiodisplay};
 
-    String[] priceArray = {"50","2000","4000","50","2000","4000"};
+    String[] priceArray = {"129000","89000","26000","202000","189000"};
     String[] descArray = {
-            "Bread, baked food product made of flour or meal that is moistened, kneaded, and sometimes fermented. A major food since prehistoric times, it has been made in various forms using a variety of ingredients and methods throughout the world.",
-            "Piece of cloth - a separate part consisting of fabric. piece of material. bib - top part of an apron; covering the chest. chamois cloth - a piece of chamois used for washing windows or cars. dishcloth, dishrag - a cloth for washing dishes.",
-            "What does a makeup kit consist of? Ideally, a complete makeup kit consists of a moisturizer, skin tint (like foundation or tinted primer), concealer, lip product, bronzer, blush, and mascara",
-            "Bread, baked food product made of flour or meal that is moistened, kneaded, and sometimes fermented. A major food since prehistoric times, it has been made in various forms using a variety of ingredients and methods throughout the world.",
-            "Piece of cloth - a separate part consisting of fabric. piece of material. bib - top part of an apron; covering the chest. chamois cloth - a piece of chamois used for washing windows or cars. dishcloth, dishrag - a cloth for washing dishes.",
-            "What does a makeup kit consist of? Ideally, a complete makeup kit consists of a moisturizer, skin tint (like foundation or tinted primer), concealer, lip product, bronzer, blush, and mascara"
+            "128gb,Super Retina XDR display\n" + "15.40 cm / 6.1‑inch (diagonal) all‑screen OLED display\n" + "2532x1170-pixel resolution at 460 ppi ",
+            "49mm case sizes\n" + "\n" + "100 m water resistant2\n" + "\n" + "Swimproof and recreational diving to 40m2\n" + "\n" + "EN13319 certification3\n" + "\n" + "Depth gauge with water temperature sensor\n" + "\n" + "Certified IP6X dust resistant\n" + "\n" + "Tested to MIL-STD 810H4\n" + "\n" + "Customisable Action button",
+            "Custom high-excursion Apple driver\n" + "Custom high dynamic range amplifier\n" + "Active Noise Cancellation\n" + "Adaptive Transparency\n" + "Vent system for pressure equalisation\n" + "Personalised Spatial Audio with dynamic head tracking1\n" + "Adaptive EQ",
+            "Apple M2 Max chip\n" + "\n" + "12-core CPU with 8 performance cores and 4 efficiency cores\n" + "\n" + "38-core GPU\n" + "\n" + "16-core Neural Engine\n" + "\n" + "400GB/s memory bandwidth\n" + "\n" + "Media engine\n" + "\n" + "Hardware-accelerated H.264, HEVC, ProRes and ProRes RAW\n" + "\n" + "Video decode engine\n" + "\n" + "Two video encode engines\n" + "\n" + "Two ProRes encode and decode engines",
+            "Retina 6K Display\n" + "\n" + "81.28 cm / 32-inch (diagonal) IPS LCD display with oxide TFT technology\n" + "\n" + "Resolution: 6016x3384 pixels (20.4 million pixels) at 218 pixels per inch\n" + "Aspect ratio: 16:9\n" + "XDR (Extreme Dynamic Range)\n" + "\n" + "Viewing angle: Super-wide angle with high-fidelity colour and contrast at 89º left, 89º right, 89º up, 89º down\n" + "Fully laminated; 1.65% reflectivity (typical)\n" + "Super-wide\n" + "viewing angle\n" + "Contrast ratio: 1,000,000:1\n" + "Colour: P3 wide colour gamut, 10-bit depth for 1.073 billion colours\n" + "XDR brightness: 1000 nits sustained full-screen, 1600 nits peak 1 (HDR content only)\n" + "SDR brightness: 500 nits\n" + "Technology\n" + "\n" + "2D backlighting system using 576 full array local dimming zones\n" +""
+
+
     };
 
     RecyclerView categoryRecyclerview;
-    String[] categoryNameArray = {"Travel","Fashion","Health","Beauty","Food Drink"};
-    int[] categoryImageArray = {R.drawable.travel,R.drawable.fashion,R.drawable.health,R.drawable.beauty,R.drawable.food_drink};
+    String[] categoryNameArray = {"iphone","watch","airpods","macbook","display"};
+    int[] categoryImageArray = {R.drawable.iphone,R.drawable.applewatchultra,R.drawable.appleairpodspro,R.drawable.macbookpro,R.drawable.studiodisplay};
 
     ArrayList<CategoryList> arrayList;
 

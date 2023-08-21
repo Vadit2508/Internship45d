@@ -46,12 +46,26 @@
             android:hint="Password"
             android:inputType="textPassword" />
 
+        <CheckBox
+            android:id="@+id/checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/main_password"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_1sdp"
+            android:buttonTint="@color/white"
+            android:text="Rember me"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_14sdp" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginHorizontal="@dimen/_20sdp"
             android:layout_marginTop="@dimen/_30sdp"
             android:weightSum="2">
+
 
             <Button
                 android:id="@+id/main_login"
@@ -63,12 +77,12 @@
 
             <TextView
                 android:id="@+id/main_signup"
+                style="@style/text_18"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Signup"
-                android:textAlignment="center"
-                style="@style/text_18"/>
+                android:textAlignment="center" />
 
         </LinearLayout>
 
